@@ -1,4 +1,5 @@
 #README - Projeto We Movie
+
 Este é o README para o projeto We Movie. Neste documento, você encontrará informações essenciais sobre como configurar e executar o projeto. Certifique-se de seguir todas as etapas para garantir uma experiência suave ao trabalhar com o projeto.
 
 ##Requisitos de Pré-instalação
