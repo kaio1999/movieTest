@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#README - Projeto We Movie
+Este é o README para o projeto We Movie. Neste documento, você encontrará informações essenciais sobre como configurar e executar o projeto. Certifique-se de seguir todas as etapas para garantir uma experiência suave ao trabalhar com o projeto.
 
-## Getting Started
+##Requisitos de Pré-instalação
+Para executar este projeto, você deve ter o Yarn e o Node.js instalados em sua máquina. Recomendamos que você use o Node.js na versão 16.20.1 para evitar problemas de compatibilidade. Você pode verificar a versão atual do Node.js instalada em sua máquina usando o seguinte comando:
 
-First, run the development server:
+node -v
+Certifique-se de que você tenha o Yarn instalado também. Você pode verificar a versão do Yarn com o seguinte comando:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+yarn -v
+Se você precisar instalar ou atualizar o Yarn ou o Node.js, você pode fazê-lo seguindo as instruções em seus sites oficiais.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+###Configurando o Projeto
+Clone este repositório em sua máquina local usando o comando:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+git clone https://github.com/seu-usuario/projeto-xyz.git
+Navegue até o diretório do projeto:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+cd movieTest
+Instale as dependências do projeto usando o Yarn: yarn install
 
-## Learn More
+####Executando o Backend
+Para executar o backend deste projeto, você precisará abrir um terminal separado e seguir estas etapas:
 
-To learn more about Next.js, take a look at the following resources:
+Navegue até o diretório do projeto:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+cd movieTest
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Inicie o backend com o comando: yarn backend
 
-## Deploy on Vercel
+Isso iniciará o servidor backend e permitirá que você acesse os endpoints da API.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#####Executando o Frontend
+Para executar o frontend do projeto, basta seguir os passos anteriores, de instalação de dependencias e execução do backend, e após isso, execuar o seguinte comando no diretorio do projeto: yarn dev
