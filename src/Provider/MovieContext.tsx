@@ -21,7 +21,6 @@ const MoviesContextProvider = ({ children }: MyProviderProps) => {
             const item = window.sessionStorage.getItem('moviesData');
             if (item !== null) {
                 const response = JSON.parse(item);
-                console.log(response,'response');
                 
                 if (response) setMovies(response)
             }
